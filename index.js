@@ -11,4 +11,5 @@ function deleteFromObjectbyKey(recipes, cookies) {
   var newObj = Object.assign({}, recipes);
   delete newObj.cookies;
   return newObj
+  return recipes
 }
